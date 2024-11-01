@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaiseki Onigiri</title>
+    <!-- LInk To Css-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Nav -->
+      <div class="nav container">
+        <a href="#" class="logo">Kaiseki Onigiri</a>
+        <!-- Cart-Icons-->
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        <!-- Cart -->
+        <div class="cart">
+          <h3 class="cart-title">Your Cart</h3>
+          <!-- Content -->
+          <div class="cart-content"></div>
+          <!-- Total -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">IDR 0K</div>
+          </div>
+          <!-- Buy Buttom -->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!-- Cart Close -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Shop -->
+    <section class="shop container">
+      <h2 class="section-title">Menu Makanan Dan Minuman Khas Jepang</h2>
+      <h3 class="section-title">日 本 料 理 と ド リ ン ク メ ニ ュ ー</h3>
+      <!-- Content -->
+      <div class="shop-conten">
+        <!-- Box 1 -->
+        <div class="product-row">
+          <div class="product-box">
+            <img src="images/produc-2.png" alt="" class="product-img" />
+            <h5 class="product-title">tuna mayo onigiri</h5>
+            <span class="price">IDR 20K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <!-- Box 2 -->
+          <div class="product-box">
+            <img src="images/produc-2.png" alt="" class="product-img" />
+            <h5 class="product-title">chicken teriyaki onigiri</h5>
+            <span class="price">IDR 18K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <!-- Box 3 -->
+          <div class="product-box">
+            <img src="images/produc-2.png" alt="" class="product-img" />
+            <h5 class="product-title">chicken spicy hot mayo</h5>
+            <span class="price">IDR 18K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <!-- Box 4 -->
+          <div class="product-box">
+            <img src="images/produc-2.png" alt="" class="product-img" />
+            <h5 class="product-title">yellow onigiri(isi jamur)</h5>
+            <span class="price">IDR 18K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <!-- Box 5 -->
+          <div class="product-box">
+            <img src="images/produc-2.png" alt="" class="product-img" />
+            <h5 class="product-title">tamago onigiri</h5>
+            <span class="price">IDR 18K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <!-- Box 6 -->
+
+          <!-- Box 7 -->
+          <div class="product-box">
+            <img src="images/product-5.png" alt="" class="product-img" />
+            <h5 class="product-title">matcha frappe</h5>
+            <span class="price">IDR 22K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <!-- Box 8 -->
+          <div class="product-box">
+            <img src="images/product-6.png" alt="" class="product-img" />
+            <h5 class="product-title">tmatcha latte</h5>
+            <span class="price">IDR 27K</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <div class="popup" id="popup">
+            <div class="popup-content">
+              <h3>Pembelian Berhasil!</h3>
+              <p>Selamat, pembelian Anda berhasil dilakukan.</p>
+              <button id="close-popup">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Link To JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
